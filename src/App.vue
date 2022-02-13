@@ -1,21 +1,24 @@
 <template>
   <div id="app">
     <Casidy></Casidy>
-    <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <Button></Button>
+    <img alt="Vue logo" src="./assets/logo.png">
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Button from "@/components/Button";
+import Casidy from "@/components/Casidy";
+
 
 export default {
   name: 'App',
   components: {
     Button,
     Casidy,
-    HelloWorld,
+    HelloWorld
   }
 }
 </script>
